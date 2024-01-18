@@ -31,11 +31,12 @@ ul li {
     list-style: none;
     display: inline;
     margin: 15px;
+    color: #E5E7EB;
 }
 
 .section {
     color: #F9FAF8;
-    padding: 50px 170px;
+    padding: 80px 170px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -131,4 +132,52 @@ ul li {
     font-size: 18px;
     font-weight: bold;
     padding-left: 700px;
+}
+
+/* CTO section */
+
+.section3 {
+    padding: 80px;
+}
+
+.section3 .action {
+    background-color: #3882F6;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section3 button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+.section3 p {
+    margin-right: 140px;
+}
+
+.section3 .cto {
+    font-size: 20px;
+}
+
+/* footer section */
+
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
